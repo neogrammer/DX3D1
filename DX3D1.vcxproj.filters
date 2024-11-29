@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{2b805b11-8d2c-4075-a996-38bcf3febe65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{9f769659-87fd-42b5-a305-c176b1034c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{fec2c7fd-9ed2-463d-b4a0-5e3f20058b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\shaders">
+      <UniqueIdentifier>{692bb684-4dd7-45da-9938-ebf64f6466bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\textures">
+      <UniqueIdentifier>{8c5c852b-e12f-48b4-96bc-3e08fc63d916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\models">
+      <UniqueIdentifier>{5fbbe60f-44f2-45a8-9606-c514df85f8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\textures\sprite">
+      <UniqueIdentifier>{d61a4d44-3d15-4329-9376-96909228e68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\fonts">
+      <UniqueIdentifier>{94af87ff-918f-43c1-a349-e63e2448b6af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="textureshaderclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="textureclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="systemclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="inputclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmapclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="applicationclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LightClass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="LightShaderClass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelClass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorShaderClass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="spriteclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="timerclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="fontclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="fontshaderclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="textclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="fpsclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="multitextureshaderclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="lightmapshaderclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="alphamapshaderclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="normalmapshaderclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="specmapshaderclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="frustumclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="modellistclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="positionclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTextureClass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="displayplaneclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="fogshaderclass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="assets\shaders\colorVert.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\colorPixel.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\texturePixel.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\textureVert.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\fontPS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\fontVS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\multitexturePS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\multitextureVS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\lightMapPS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\lightMapVS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\alphamapPS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\alphamapVS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\normalmapPS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\normalmapVS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\specmapPS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\specmapVS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\lightPS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\lightVS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\fogPS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="assets\shaders\fogVS.hlsl">
+      <Filter>assets\shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\textures\stone01.tga">
+      <Filter>assets\textures</Filter>
+    </Image>
+    <Image Include="assets\textures\sprite01.tga">
+      <Filter>assets\textures\sprite</Filter>
+    </Image>
+    <Image Include="assets\textures\sprite02.tga">
+      <Filter>assets\textures\sprite</Filter>
+    </Image>
+    <Image Include="assets\textures\sprite03.tga">
+      <Filter>assets\textures\sprite</Filter>
+    </Image>
+    <Image Include="assets\textures\sprite04.tga">
+      <Filter>assets\textures\sprite</Filter>
+    </Image>
+    <Image Include="assets\textures\font1.tga">
+      <Filter>assets\fonts</Filter>
+    </Image>
+    <Image Include="assets\textures\normal01.tga">
+      <Filter>assets\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\models\Cube.txt">
+      <Filter>assets\models</Filter>
+    </Text>
+    <Text Include="assets\models\sphere.txt">
+      <Filter>assets\models</Filter>
+    </Text>
+    <Text Include="assets\models\plane.txt">
+      <Filter>assets\models</Filter>
+    </Text>
+    <Text Include="assets\textures\sprite_data_01.txt">
+      <Filter>assets\textures\sprite</Filter>
+    </Text>
+    <Text Include="assets\textures\font1IndexData.txt">
+      <Filter>assets\fonts</Filter>
+    </Text>
+    <Text Include="assets\textures\cube.txt">
+      <Filter>assets\textures</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="textureclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="systemclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="inputclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmapclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="applicationclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="textureshaderclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LightShaderClass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LightClass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelClass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorShaderClass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="timerclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fontclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fontshaderclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="textclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fpsclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="multitextureshaderclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lightmapshaderclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="alphamapshaderclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="normalmapshaderclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="specmapshaderclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="frustumclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="modellistclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="positionclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTextureClass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="displayplaneclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fogshaderclass.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
